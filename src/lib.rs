@@ -497,7 +497,7 @@ mod weekday;
 pub use weekday::{ParseWeekdayError, Weekday};
 
 mod month;
-pub use month::{Month, Months, ParseMonthError};
+pub use month::{Month, ParseMonthError};
 
 mod traits;
 pub use traits::{Datelike, Timelike};
